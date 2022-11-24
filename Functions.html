@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Functions</h2>
+
+<p>Outside myFunction() AnimalName is undefined.</p>
+
+<p id="trial1"></p>
+
+<p id="trial2"></p>
+
+<script>
+myFunction();
+
+function myFunction() {
+  let AnimalName = "Wolf";
+  document.getElementById("trial1").innerHTML =
+  typeof AnimalName + " " + AnimalName;
+}
+
+document.getElementById("trial2").innerHTML =
+typeof AnimalName;
+</script>
+
+</body>
+</html>
